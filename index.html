@@ -5,7 +5,34 @@
     <link rel="stylesheet" type="text/css" href="">
 </head>
 <body>
-    
+        <form name="form" method="get">
+            <fieldset>
+                <legend>Sign in here</legend>
+                <label for="name">Nom </label>
+                <input type="text" name="name" id="name" placeholder="Tapez votre prenom"
+                required autocomplete><br>
+                <label for="prenom">Prenom</label>
+                <input type="text" name="n" id="np" size="30" maxlength="30"
+                placeholder="Tapez votre prenom" required autocomplete autofocus><br>
+                <label for="pass">Mot de passe :</label>
+                <input type="password" name="pw" id="mp" minlength="10" size="30" 
+                maxlength="16" placeholder="Tapez votre Mot de passe" required><br>
+                <label for="email">E-mail</label>
+                <input type="email" name="e" id="email" size="40" required placeholder="Tapez votre email"><br>
+                <label for="dn">Date de naissance :</label>
+                <input type="Date" name="D" id=""><br>
+                <label for="URL">URL</label>
+                <input type="url" name="URL"><br>
+                Tel :<input type="Tel" name="tel"><br>
+                Adresse :<textarea cols="20"rows="5">Tapez vote adresse</textarea><br>
+                Photo :<input type="file" name="photo"><br>
+                Age : <input type="number" name="age">ans<br>
+                Couleur :<input type="color" name="clr"><br>
+                Niveau :<input type="range" name="range" step="10"><br>
+                <input type="image" src="TI 1.2.jpg" width="50" height="50">
+                <input type="reset" name="annulez">
+            </fieldset>	
+        </form>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
